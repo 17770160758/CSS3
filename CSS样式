@@ -1,0 +1,130 @@
+ <style>
+        /* p{
+            color:red;/*文字颜色*/
+            /*font-size: 20px;/* 字体大小 px：像素 */
+            /* 背景颜色 */
+            /*background-color: green;
+            /* 宽度 高度 */
+            /*width: 400px;
+            height: 400px;
+        } */
+        /* .one{
+            color: green;
+            font-size: 30px;
+        }
+        #two{
+            color: yellow;
+            font-size: 30px;
+        } */
+        *{
+            margin: 0;
+            padding: 0;
+            color: red;
+        }
+    </style>
+     <script>
+        /*
+            css样式写在style标签里,style标签一般写在head标签
+            css选择器 {css属性}
+            css选择器：查找标签
+            css常见的引入方式
+            1.内嵌式 
+            2.外联式  link标签引入
+            3.行内式
+            选择器：
+            1.标签选择器 标签名{css属性名：属性值；}
+            2.类选择器 .类名{css属性名：属性值；} 一个标签需要多个类名 需要空格隔开
+            3.id选择器 #id属性值{css属性名：属性值； }
+            4.通配符选择器 *{css属性名：属性值；}默认清除css margin: 0;
+            padding: 0;值
+        */
+    </script>
+    <p>hello world </p>
+    <div class="one">这是一个类选择器</div>
+    <div id="two">这是一个id选择器</div>
+    <div>这是一个通配符选择器</div>
+    <style>
+        /* .one{
+        font-size: 30px;
+     }
+     .two{
+        font-weight: 900;
+     }
+     .three{
+        font-style: italic;
+     }
+     .four{
+        font-family: 宋体;
+     }
+     .five{
+        color: red;
+        color: blue;
+     }
+     .six{
+        font: italic 700 66px 宋体; 
+     }*/
+     p{
+        text-indent: 2em;
+     }
+     h1{
+        text-align: center;
+     }
+     body{
+        text-align: left;
+     }
+     div{
+        text-decoration: underline;
+     }
+     /* p{
+        text-decoration: line-through;
+     } */
+     h2{
+        text-decoration: overline;
+     }
+     a{
+        text-decoration: none;
+     }
+     p{
+        /* line-height: 30px; */
+        /* 自己字号的倍数 */
+        /* line-height: 3; */
+        /* 66px 宋体 倾斜 加粗 行高是2倍 */
+        font:  italic bold 66px/2 宋体;
+     }
+     div{
+        background-color: aqua;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+     }
+    </style>
+    <script>
+        /*
+            1.字体大小：font-size 取值：数字+px
+            2.字体粗细：font-weight 取值：normal（正常） bold（加粗）400（正常）900（加粗）
+            3.字体样式（是否倾斜）：font-style 取值：normal（默认值） italic（倾斜）
+            4.字体系列：font-family 具体字体："Microsoft YaHei"、微软雅黑、黑体、宋体、 sans-serif（无寸线字体）
+            5.层叠样式  后面覆盖前面的属性
+            6.字体font相关属性的连写：font：（复合属性）； 取值：font:style weight size family;
+            7.文本缩进 text-indent 取值：数字+em em:一个字的大小
+            8.水平对齐方式 text-align 取值：left 左对齐 center 居中 right 右对齐
+            9.文本修饰 text-decoration 取值：underline 下划线（常用） line-through 删除线（不常用） overline 上划线（几乎不用）none 无装饰线（常用）
+            10.行高 line-height 取值：数字+px 倍数（当前标签font-size的倍数）
+            11.标签水平居中总结：margin：0 auto来实现
+        */
+    </script>
+    <div class="one">这是字体大小</div>
+    <div class="tow">字体粗细</div>
+    <div class="three">字体倾斜</div>
+    <div class="four">字体系列</div>
+    <div class="five">层叠样式</div>
+    <div class="six">字体font相关属性的连写</div>
+    <p>喜欢阳光的味道，喜欢阳光折射的光线散发出五光十色的梦境，暖暖的色彩，如透明的音符在指尖跳动，心动而悠然，清浅而明媚，看时光缓缓慢移，看青葱年华逐渐隐去，岁月又曾添了新的色彩，一寸光阴，一程心情，一种思绪，一层断章，安静的停歇在岁月的一角，用纤瘦的十指触摸阳光的暖意，感受生活的点点滴滴，原来，世间还是如此美丽!</p>
+    <h1>新闻标题</h1>
+    <img src="../img/微信图片_20230207150734.jpg" >
+    <div>div</div>
+    <p>ppp</p>
+    <h2>h2</h2>
+    <a href="#">我是超链接</a>
+    <p>喜欢阳光的味道，喜欢阳光折射的光线散发出五光十色的梦境，暖暖的色彩，如透明的音符在指尖跳动，心动而悠然，清浅而明媚，看时光缓缓慢移，看青葱年华逐渐隐去，岁月又曾添了新的色彩，一寸光阴，一程心情，一种思绪，一层断章，安静的停歇在岁月的一角，用纤瘦的十指触摸阳光的暖意，感受生活的点点滴滴，原来，世间还是如此美丽喜欢阳光的味道，喜欢阳光折射的光线散发出五光十色的梦境，暖暖的色彩，如透明的音符在指尖跳动，心动而悠然，清浅而明媚，看时光缓缓慢移，看青葱年华逐渐隐去，岁月又曾添了新的色彩，一寸光阴，一程心情，一种思绪，一层断章，安静的停歇在岁月的一角，用纤瘦的十指触摸阳光的暖意，感受生活的点点滴滴，原来，世间还是如此美丽喜欢阳光的味道，喜欢阳光折射的光线散发出五光十色的梦境，暖暖的色彩，如透明的音符在指尖跳动，心动而悠然，清浅而明媚，看时光缓缓慢移，看青葱年华逐渐隐去，岁月又曾添了新的色彩，一寸光阴，一程心情，一种思绪，一层断章，安静的停歇在岁月的一角，用纤瘦的十指触摸阳光的暖意，感受生活的点点滴滴，原来，世间还是如此美丽</p>
+    <div></div>
